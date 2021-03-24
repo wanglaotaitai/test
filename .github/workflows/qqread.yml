@@ -32,7 +32,7 @@ jobs:
         if: env.QQ_QQreadURL
         run: |
           cd ~/copyfor302
-          git checkout ZIYE
+          git checkout ZIYE2
           npm install
       - name: '运行 【QQ阅读】'
         if: env.QQ_QQreadURL
